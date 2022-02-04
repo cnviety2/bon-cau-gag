@@ -1,0 +1,18 @@
+<div class="container post-container shadow" #container>
+    <div class="row">
+        <div class="col-1 mt-3">
+            <img class="post-icon" src="{{user.photoUrl}}" alt="" />
+        </div>
+        <div class="col-4 mt-3 name-padding">
+            <span><a [routerLink]="'/assd'"><strong (mouseenter)="nameOnMouseEnter($event)"
+                        (mouseleave)="nameOnMouseLeave($event)">{{user.name}}</strong></a></span>
+            <p>8h</p>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <img src="https://www.ngoaingucongdong.com/wp-content/uploads/2021/11/random-la-gi-03.png" class="img-fluid" #postImg/>
+    </div>
+    <div class="row mt-2">
+        assd
+    </div>
+</div>
